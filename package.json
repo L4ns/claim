@@ -1,37 +1,14 @@
 {
   "name": "haven1-claimer",
-  "version": "1.1.0",
-  "description": "Automates the process of claiming GM and faucet tokens from the Haven1 testnet.",
-  "main": "server.js",
+  "version": "1.0.0",
+  "description": "Automates the process of claiming faucet tokens from the Haven1 testnet.",
+  "main": "claim-faucet.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node claim-faucet.js"
   },
   "dependencies": {
     "axios": "^0.27.2",
-    "body-parser": "^1.19.0",
     "dotenv": "^16.0.3",
-    "express": "^4.17.1",
     "web3": "^1.7.3"
-  },
-  "engines": {
-    "node": ">=14.x"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yourusername/haven1-claimer.git"
-  },
-  "keywords": [
-    "Haven1",
-    "GM",
-    "faucet",
-    "claimer",
-    "Ethereum",
-    "web3"
-  ],
-  "author": "L4ns",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/yourusername/haven1-claimer/issues"
-  },
-  "homepage": "https://github.com/yourusername/haven1-claimer#readme"
+  }
 }
